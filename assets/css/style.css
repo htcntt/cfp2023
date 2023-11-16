@@ -1659,33 +1659,32 @@ font-family: 'Arial Narrow', Arial, sans-serif;
   color: #ffc107;
   margin: 0 auto;
   text-align: center;
+  padding-bottom: 0em;
 }
 
 #cound_down_headline {
   font-weight: normal;
-  letter-spacing: .1rem;
+  letter-spacing: .5rem;
   text-transform: uppercase;
 }
 
 li.cound_down {
   margin: 0 auto;
-  border: 1px solid #adafb2;
-  border-width: 2px 0;
   overflow: hidden;
   font-family: 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
   display: inline-block;
-  font-size: 1em;
+  font-size: 1.1em;
   list-style-type: none;
-  padding: 1em;
+  padding: 0.3em;
   %text-transform: uppercase;
 }
 
 li.cound_down span {
   display: block;
-  font-size: 4.5rem;
-    display: inline-block;
-    text-align: center;
+  font-size: 3.3rem;
+  display: inline-block;
+  text-align: center;
 }
 
 .emoji {
@@ -1694,7 +1693,7 @@ li.cound_down span {
 }
 
 .emoji span {
-  font-size: 4rem;
-  padding: 0 .5rem;
+  font-size: 3.5rem;
+  padding: 0 .1rem;
 }
 }
